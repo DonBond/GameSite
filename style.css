@@ -1,0 +1,40 @@
+body {
+    padding-top: 56px;
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  .navbar{
+      background-color: #76030b !important;
+      font-weight: bold;
+  }
+
+  .navbar .nav-item .nav-link{
+      color: #fff;
+  }
+
+  .whiteText{
+    color: #fff;
+  }
+
+  .bg-red{
+    background: #76030b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #6f0000, #76030b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #6f0000, #76030b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.hero{
+    font-weight:bold;
+font-size:19px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+.rFooter{
+    background-color: #76030b !important;
+}
