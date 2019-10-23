@@ -10,9 +10,11 @@
   <title>The Gaming Site</title>
 
   <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"  >
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+ 
+ 
   <!-- Custom styles -->
   <link href="style.css" rel="stylesheet">
 
@@ -65,7 +67,7 @@
     </div>
     <!-- /.row -->
 
-    <div class="card text-white bg-red my-5 py-4 text-center">
+    <div class="card text-white bg-red my-5 py-4 text-center" style="padding: 5px 0 !important;">
       <div class="card-body">
         <p class="text-white m-0 hero">The time for gaming is now! What are you waiting for!</p>
       </div>
@@ -119,15 +121,35 @@
     </div>
     <!-- /.container -->
 
-    <h4 class="whiteText">THE RABBIT GAME</h4>
-    <video width="400" controls>
+    
+    <!-- <div class="row">
+    <div class="col-md-12 mb-6 text-center">
+        <h4 class="whiteText">THE RABBIT GAME</h4>
+    <video width="200" controls>
             <source src="https://www.w3schools.com/css/mov_bbb.mp4" type="video/mp4">
             <source src="https://www.w3schools.com/css/mov_bbb.mp4" type="video/mp4">
             Your browser does not support HTML5 video.
           </video>
+          </div>
+    </div> -->
+    <!-- <div class="row">
+    <div class="col-md-12 mb-6 text-center" >
+    <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+      <iframe width="653" height="280" src="https://www.youtube.com/embed/71ABn1vrJPk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+    </div>
+  </div>
+</div> -->
+<div class="video-square-container">
+  <div class="video-square">
+      <h4 class="whiteText">BATTLEFIELD 5</h4>
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe width="653" height="280" src="https://www.youtube.com/embed/71ABn1vrJPk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+    </div>
+  </div>
+</div>
 
       <!-- Content Row -->
-    <h4 id="selling" class="whiteText">TOP SELLING</h4>
+    <h4 id="selling" class="whiteText" style="margin-top: 20px;">TOP SELLING</h4>
     <div class="row">
       <div class="col-md-4 mb-5">
         <div class="card h-100">
@@ -178,11 +200,10 @@
     </div>
     <!-- /.container -->
   </footer>
-
   <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
-
+  
   
  <script src="app.js"></script>
 
